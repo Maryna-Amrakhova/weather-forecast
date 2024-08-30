@@ -1,0 +1,115 @@
+body {
+    background-color: #fafffd;
+    font-family: "Moderustic", sans-serif;
+  }
+  
+  header {
+      margin-top: 20px;
+  }
+  .main-container {
+    background: #fff;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 15px;
+    padding: 30px;
+  }
+  .main-form {
+    display: flex;
+    justify-content: center;
+  }
+  .form-input {
+    background-color: #f4fffb;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-right: 10px;
+  }
+  .form-submit {
+    background-color: rgb(25, 170, 134);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .form-submit:hover {
+      background-color: rgb(55, 150, 126);
+     
+  }
+  main {
+    padding: 40px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  h1 {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .container p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: rgba(39, 33, 66, 0.4);
+  }
+  .container strong {
+    color: #f65282;
+  }
+  .temp-container {
+    display: flex;
+  }
+  .temp-icon {
+    width: 86px;
+    height: 86px;
+  }
+  .temp-current {
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 88px;
+    margin-left: 10px;
+  }
+  .temp-deg {
+    margin-top: 6px;
+    font-size: 28px;
+  }
+  .weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .forecast-day {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+  .forecast-icon {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .forecast-temp {
+    text-align: center;
+    color:rgb(25, 170, 134)
+  }
+  .forecast-temp strong {
+    margin-right: 5px;
+  }
+  footer {
+    border-top: 1px solid #f4fffb;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba (0, 0, 0, 0.6);
+  }
+  footer a {
+    color: rgb(25, 170, 134);
+  }

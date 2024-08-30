@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Weather forecast</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <form class="main-form" id="main-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="form-input"
+            id="form-input"
+          />
+          <input type="submit" value="Search" class="form-submit" />
+        </form>
+      </header>
+      <main>
+        <div class="container">
+          <div>
+            <h1 id="city"></h1>
+            <p class="current-time" id="current-time">
+              <span id="time"></span>
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong> Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div class="temp-container">
+            <div id="icon"></div>
+            <div class="temp-current" id="temp"></div>
+            <div class="temp-deg">&deg;C</div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <!-- <div class="weather-daily">
+            <div class="forecast-day">Thu</div>
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp"><strong>15&deg</strong> 9&deg</div>
+          </div>
+          <div class="weather-daily">
+            <div class="forecast-day">Fri</div>
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp"><strong>15&deg</strong> 9&deg</div>
+          </div>
+          <div class="weather-daily">
+            <div class="forecast-day">Sat</div>
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp"><strong>15&deg</strong> 9&deg</div>
+          </div>
+          <div class="weather-daily">
+            <div class="forecast-day">Sun</div>
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp"><strong>15&deg</strong> 9&deg</div>
+          </div>
+          <div class="weather-daily">
+            <div class="forecast-day">Mon</div>
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp"><strong>15&deg</strong> 9&deg</div>
+          </div> -->
+        </div>
+      </main>
+      <footer>
+        <p class="owner-links">
+          This project was coded by
+          <a href="https://github.com/Maryna-Amrakhova" target="_blank"
+            >Maryna Amrakhova</a
+          >
+          and is
+          <a
+            href="https://github.com/Maryna-Amrakhova?tab=repositories"
+            target="_blank"
+            >on GitHub</a
+          >
+          and
+          <a href="https://currentweather-search.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
