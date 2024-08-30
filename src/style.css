@@ -1,5 +1,5 @@
 body {
-    background-color: #fafffd;
+    background-color: #e5e5e5;
     font-family: "Moderustic", sans-serif;
   }
   
@@ -19,7 +19,7 @@ body {
     justify-content: center;
   }
   .form-input {
-    background-color: #f4fffb;
+    background-color: #effff9;
     border: none;
     border-radius: 5px;
     width: 80%;
@@ -92,7 +92,8 @@ body {
     
   }
   .forecast-icon {
-    font-size: 36px;
+    width: 80px;
+    height: 80px;
     text-align: center;
     margin-bottom: 10px;
   }
